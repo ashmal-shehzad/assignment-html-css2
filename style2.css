@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #002D62;
+    color: white;
+}
+
+.main-logo {
+    margin-left: 90px;
+    width: 50%;
+}
+
+.navigation {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    margin-left: 40px;
+}
+
+.main-hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #002D62;
+    padding: 50px 0 50px 0;
+}
+
+.main-heading {
+    margin-left: 90px;
+    width: 55%;
+}
+
+.main-image {
+    width: 50%;
+}
+
+.heading {
+    color: white;
+    font-size: 3rem;
+}
+
+.sub-heading {
+    color: white;
+}
+
+.head-button {
+    background-color: transparent;
+    padding: 20px 40px 20px 40px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.head-button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.main-body-container {
+    display: flex;
+    justify-content: center;
+}
+
+.body-heading {
+    color: #002D62;
+    padding: 20px;
+}
+
+.sub-body {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.icon {
+    color: #002D62;
+    font-size: 50px;
+}
+
+.marketing-box {
+    width: 33%;
+    margin-left: 25px;
+    padding: 40px 20px 40px 20px;
+    background-color: rgb(238, 146, 177);
+    border-radius: 10px;
+    color: #002D62;
+}
+.design-box {
+    width: 33%;
+    margin-left: 25px;
+    padding: 40px 20px 40px 20px;
+    background-color: rgb(217, 203, 71);
+    border-radius: 10px;
+    color: #002D62;
+}
+
+.research-box {
+    width: 33%;
+    margin-left: 25px;
+    padding: 40px 20px 40px 20px;
+    background-color: rgb(91, 171, 189);
+    border-radius: 10px;
+    color: #002D62;
+}
+
+.branding-box {
+    width: 33%;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 40px 20px 40px 20px;
+    background-color:  #FFFDD0;
+    border-radius: 10px;
+    color: #002D62;
+}
+
+.foot-container {
+    display: flex;
+    justify-content: center;
+    background-color: #002D62;
+    margin-top: 50px;
+}
+
+.footer {
+    color: white;
+}
+
+.footer-text {
+    color: rgb(217, 203, 71);;
+}
